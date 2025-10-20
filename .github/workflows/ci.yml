@@ -13,7 +13,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
             name: main-pdf
-            path: main-pdf
+            path: main.pdf
       - name: summary
         run: |
             echo "CI workflow completed successfully." >> $GITHUB_STEP_SUMMARY
